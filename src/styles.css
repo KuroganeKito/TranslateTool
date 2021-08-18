@@ -1,1 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
+body::-webkit-scrollbar,
+.overflow-auto::-webkit-scrollbar,
+textarea::-webkit-scrollbar {
+  width: 5px !important;
+}
+
+body::-webkit-scrollbar-track,
+.overflow-auto::-webkit-scrollbar-track,
+textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+body::-webkit-scrollbar-thumb,
+.overflow-auto::-webkit-scrollbar-thumb,
+textarea::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+body::-webkit-scrollbar-thumb:hover,
+.overflow-auto::-webkit-scrollbar-thumb:hover,
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
